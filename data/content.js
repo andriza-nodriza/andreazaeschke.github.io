@@ -21,8 +21,8 @@ window.CONTENT = {
 
   /* ---------- HOME ---------- */
   home: {
-    intro: `I'm a student interested in building useful things on the web.
-This is where I keep my university work, side projects and the things I'm learning.`
+    intro: `I'm currently a 5th semester DDIT student BSc at the IT-University of Copenhagen.`,
+    dditFullName: "Digital Design and Interactive Technologies"
   },
 
   /* ---------- ABOUT ---------- */
@@ -30,13 +30,13 @@ This is where I keep my university work, side projects and the things I'm learni
     photo: "images/me.svg",
     photoAlt: "Portrait of me",
     body: `
-Hi, I'm **Your Name**. I'm studying *your degree* at *your university*.
+Hi, I'm Andrea. I'm on my 5th semester of the DDIT program at the IT-University of Copenhagen.
 
 ## What I'm doing now
 
-- Finishing my second year
-- Building a small web app in my spare time
-- Learning more about *something you're curious about*
+- Finishing my third year
+- Building my own website with all my projects and interests in my free time
+- Learning more about JavaScript, web development...
 
 ## A bit more
 

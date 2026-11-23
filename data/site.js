@@ -3,9 +3,8 @@
    updates on every page.
    ============================================================ */
 window.SITE = {
-  name: "Your Name",
-  tagline: "Student, builder, and curious person.",
-  email: "you@example.com",
+  name: "Andrea Zäschke",
+  email: "andrea.zaeschke@gmail.com",
 
   // The top menu. "href" must match a real .html file in this folder.
   nav: [
@@ -19,6 +18,6 @@ window.SITE = {
   // Shown in the footer. Add or remove as you like.
   links: [
     { label: "GitHub",   url: "https://github.com/your-username" },
-    { label: "LinkedIn", url: "https://www.linkedin.com/in/your-username" }
+    { label: "LinkedIn", url: "https://www.linkedin.com/in/andrea-z%C3%A4schke/" }
   ]
 };
