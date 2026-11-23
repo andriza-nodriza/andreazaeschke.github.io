@@ -86,21 +86,11 @@
     home() {
       const featured = C.projects.filter((p) => p.featured);
       const latest = C.posts[0];
-      const intro = md(C.home.intro).replace(
-        "DDIT",
-        `<span class="ddit-word">DDIT<span class="ddit-annotation">
-          <span class="ddit-field">${esc(C.home.dditFullName)}</span>
-          <svg class="ddit-arrow" viewBox="0 0 74 46" aria-hidden="true">
-            <path d="M58 3 C58 25 45 32 18 35"></path>
-            <path d="M23 29 L17 36 L25 39"></path>
-          </svg>
-        </span></span>`
-      );
       return `
         <section class="hero">
           <h1>${esc(S.name)}</h1>
           <p class="tagline">${esc(S.tagline)}</p>
-          <div class="prose ddit-prose">${intro}</div>
+          <div class="prose">${md(C.home.intro)}</div>
         </section>
         ${featured.length ? `<section><h2>Selected projects</h2><div class="grid">${featured.map(projectCard).join("")}</div>
           <p class="more"><a href="projects.html">All projects</a></p></section>` : ""}

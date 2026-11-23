@@ -21,8 +21,7 @@ window.CONTENT = {
 
   /* ---------- HOME ---------- */
   home: {
-    intro: `I'm currently a 5th semester DDIT student BSc at the IT-University of Copenhagen.`,
-    dditFullName: "Digital Design and Interactive Technologies, lil change"
+    intro: `I'm currently a 5th semester DDIT student BSc at the IT-University of Copenhagen.`
   },
 
   /* ---------- ABOUT ---------- */
